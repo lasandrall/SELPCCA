@@ -1,0 +1,17 @@
+Package: SELPCCA
+Type: Package
+Title: Sparse Canonical Correlation Analysis for Associating Mutiple High Dimensional Data
+Version: 1.0
+Author: Haoyu Chen and Sandra E Safo
+Maintainer: Sandra E. Safo <ssafo@umn.edu>
+Url: https://www.sandraesafo.com/software
+Description: Sparse canonical correlation analysis method to associate two high dimensional data types. 
+             The algorithm obtains linear combinations of subsets of variables for each data type that contribute 
+             to overall dependency structure between the data types.
+License: GPL (>=2.0)
+Imports: CVXR, doParallel, foreach
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2020-06-06 03:42:45 UTC
+Depends: R (>= 3.5.0)

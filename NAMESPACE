@@ -1,0 +1,9 @@
+importFrom("stats", "cor", "median", "na.omit")
+export(cvselpscca)
+export(cvtunerange)
+export(multiplescca)
+import(CVXR)
+import(foreach)
+import(doParallel)
+import(parallel)
+
